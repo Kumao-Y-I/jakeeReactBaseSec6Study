@@ -5,11 +5,11 @@ const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
 
 const App = () => {
-  return  <h1>こんにちは！</h1>
+  return <h1>こんにちは！</h1>
 }
 
 root.render(
   <StrictMode>
-    <App>こんにちは！</App>
+    <App />
   </StrictMode>
 );
